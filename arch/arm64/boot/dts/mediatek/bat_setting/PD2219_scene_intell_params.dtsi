@@ -1,0 +1,251 @@
+
+	/*scene intell param*/
+	vivo,scene-intell-charge-enable;
+	vivo,scene-cp-charge-enable;
+	vivo,scene-fchg9v-charge-enable;
+	vivo,scene-nchg5v-charge-enable;
+	vivo,scene-wls-charge-enable;
+	vivo,scene-bypass-charge-enable;
+
+	vivo,scene-total-max = <1>;//must 1
+
+	/********************** cp param **********************/
+	//vivo,scene-cp-enable;
+	//scene,cp-perf-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,cp-perf-primary-fbon-tc-data-0= <0>;
+
+	//scene,cp-perf-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,cp-perf-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,cp-perf-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,cp-perf-primary-fboff-tc-data-0 = <0>;
+
+	//scene,cp-perf-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,cp-perf-parallel-fboff-tc-data-0 = <0>;
+
+
+	//scene,cp-balance-primary-fbon-tc-row-col-0 = <7 3>;
+	scene,cp-balance-primary-fbon-tc-data-0= <0>;
+
+	//scene,cp-balance-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,cp-balance-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,cp-balance-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,cp-balance-primary-fboff-tc-data-0 = <0>;
+
+	//scene,cp-balance-parallel-fboff-tc-row-col-0 = <7 3>;
+	scene,cp-balance-parallel-fboff-tc-data-0 = <0>;
+
+
+	//scene,cp-cool-primary-fbon-tc-row-col-0 = <7 3>;
+	scene,cp-cool-primary-fbon-tc-data-0= <0>;
+
+	//scene,cp-cool-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,cp-cool-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,cp-cool-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,cp-cool-primary-fboff-tc-data-0 = <0>;
+
+	//scene,cp-cool-parallel-fboff-tc-row-col-0 = <7 3>;
+	scene,cp-cool-parallel-fboff-tc-data-0 = <0>;
+
+
+
+	/********************** fchg9v param **********************/
+	//scene,fchg9v-perf-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,fchg9v-perf-primary-fbon-tc-data-0= <0>;
+
+	//scene,fchg9v-perf-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,fchg9v-perf-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,fchg9v-perf-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,fchg9v-perf-primary-fboff-tc-data-0 = <0>;
+
+	//scene,fchg9v-perf-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,fchg9v-perf-parallel-fboff-tc-data-0 = <0>;
+
+
+	//scene,fchg9v-balance-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,fchg9v-balance-primary-fbon-tc-data-0= <0>;
+
+	//scene,fchg9v-balance-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,fchg9v-balance-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,fchg9v-balance-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,fchg9v-balance-primary-fboff-tc-data-0 = <0>;
+
+	//scene,fchg9v-balance-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,fchg9v-balance-parallel-fboff-tc-data-0 = <0>;
+
+
+	//scene,fchg9v-cool-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,fchg9v-cool-primary-fbon-tc-data-0= <0>;
+
+	//scene,fchg9v-cool-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,fchg9v-cool-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,fchg9v-cool-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,fchg9v-cool-primary-fboff-tc-data-0 = <0>;
+
+	//scene,fchg9v-cool-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,fchg9v-cool-parallel-fboff-tc-data-0 = <0>;
+
+
+
+	/********************** nchg5v param **********************/
+	//scene,nchg5v-perf-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,nchg5v-perf-primary-fbon-tc-data-0= <0>;
+
+	//scene,nchg5v-perf-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,nchg5v-perf-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,nchg5v-perf-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,nchg5v-perf-primary-fboff-tc-data-0 = <0>;
+
+	//scene,nchg5v-perf-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,nchg5v-perf-parallel-fboff-tc-data-0 = <0>;
+
+
+	//scene,nchg5v-balance-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,nchg5v-balance-primary-fbon-tc-data-0= <0>;
+
+	//scene,nchg5v-balance-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,nchg5v-balance-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,nchg5v-balance-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,nchg5v-balance-primary-fboff-tc-data-0 = <0>;
+
+	//scene,nchg5v-balance-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,nchg5v-balance-parallel-fboff-tc-data-0 = <0>;
+
+
+	//scene,nchg5v-cool-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,nchg5v-cool-primary-fbon-tc-data-0= <0>;
+
+	//scene,nchg5v-cool-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,nchg5v-cool-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,nchg5v-cool-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,nchg5v-cool-primary-fboff-tc-data-0 = <0>;
+
+	//scene,nchg5v-cool-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,nchg5v-cool-parallel-fboff-tc-data-0 = <0>;
+
+
+
+	/********************** wls param **********************/
+	//scene,wls-perf-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,wls-perf-primary-fbon-tc-data-0= <0>;
+
+	//scene,wls-perf-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,wls-perf-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,wls-perf-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,wls-perf-primary-fboff-tc-data-0 = <0>;
+
+	//scene,wls-perf-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,wls-perf-parallel-fboff-tc-data-0 = <0>;
+
+	//scene,wls-perf-batt-fbon-tc-row-col-0 = <1 3>;
+	scene,wls-perf-batt-fbon-tc-data-0 = <0>;
+
+	//scene,wls-perf-batt-fboff-tc-row-col-0 = <1 3>;
+	scene,wls-perf-batt-fboff-tc-data-0 = <0>;
+
+
+	//scene,wls-balance-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,wls-balance-primary-fbon-tc-data-0= <0>;
+
+	//scene,wls-balance-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,wls-balance-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,wls-balance-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,wls-balance-primary-fboff-tc-data-0 = <0>;
+
+	//scene,wls-balance-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,wls-balance-parallel-fboff-tc-data-0 = <0>;
+
+	//scene,wls-balance-batt-fbon-tc-row-col-0 = <1 3>;
+	scene,wls-balance-batt-fbon-tc-data-0 = <0>;
+
+	//scene,wls-balance-batt-fboff-tc-row-col-0 = <1 3>;
+	scene,wls-balance-batt-fboff-tc-data-0 = <0>;
+
+
+	//scene,wls-cool-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,wls-cool-primary-fbon-tc-data-0= <0>;
+
+	//scene,wls-cool-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,wls-cool-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,wls-cool-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,wls-cool-primary-fboff-tc-data-0 = <0>;
+
+	//scene,wls-cool-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,wls-cool-parallel-fboff-tc-data-0 = <0>;
+
+	//scene,wls-cool-batt-fbon-tc-row-col-0 = <1 3>;
+	scene,wls-cool-batt-fbon-tc-data-0 = <0>;
+
+	//scene,wls-cool-batt-fboff-tc-row-col-0 = <1 3>;
+	scene,wls-cool-batt-fboff-tc-data-0 = <0>;
+
+
+
+	/********************** bypas param **********************/
+	//scene,bypas-perf-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,bypas-perf-primary-fbon-tc-data-0= <0>;
+
+	//scene,bypas-perf-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,bypas-perf-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,bypas-perf-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,bypas-perf-primary-fboff-tc-data-0 = <0>;
+
+	//scene,bypas-perf-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,bypas-perf-parallel-fboff-tc-data-0 = <0>;
+
+	//scene,bypas-perf-batt-fbon-tc-row-col-0 = <1 3>;
+	scene,bypas-perf-batt-fbon-tc-data-0 = <0>;
+
+	//scene,bypas-perf-batt-fboff-tc-row-col-0 = <1 3>;
+	scene,bypas-perf-batt-fboff-tc-data-0 = <0>;
+
+
+	//scene,bypas-balance-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,bypas-balance-primary-fbon-tc-data-0= <0>;
+
+	//scene,bypas-balance-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,bypas-balance-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,bypas-balance-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,bypas-balance-primary-fboff-tc-data-0 = <0>;
+
+	//scene,bypas-balance-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,bypas-balance-parallel-fboff-tc-data-0 = <0>;
+
+	//scene,bypas-balance-batt-fbon-tc-row-col-0 = <1 3>;
+	scene,bypas-balance-batt-fbon-tc-data-0 = <0>;
+
+	//scene,bypas-balance-batt-fboff-tc-row-col-0 = <1 3>;
+	scene,bypas-balance-batt-fboff-tc-data-0 = <0>;
+
+
+	//scene,bypas-cool-primary-fbon-tc-row-col-0 = <0 0>;
+	scene,bypas-cool-primary-fbon-tc-data-0= <0>;
+
+	//scene,bypas-cool-parallel-fbon-tc-row-col-0 = <1 3>;
+	scene,bypas-cool-parallel-fbon-tc-data-0 = <0>;
+
+	//scene,bypas-cool-primary-fboff-tc-row-col-0 = <7 3>;
+	scene,bypas-cool-primary-fboff-tc-data-0 = <0>;
+
+	//scene,bypas-cool-parallel-fboff-tc-row-col-0 = <1 3>;
+	scene,bypas-cool-parallel-fboff-tc-data-0 = <0>;
+
+	//scene,bypas-cool-batt-fbon-tc-row-col-0 = <1 3>;
+	scene,bypas-cool-batt-fbon-tc-data-0 = <0>;
+
+	//scene,bypas-cool-batt-fboff-tc-row-col-0 = <1 3>;
+	scene,bypas-cool-batt-fboff-tc-data-0 = <0>;
+

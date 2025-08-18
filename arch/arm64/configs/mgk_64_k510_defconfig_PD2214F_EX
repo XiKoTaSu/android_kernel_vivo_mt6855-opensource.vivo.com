@@ -1,0 +1,54 @@
+########add camera start###########
+CONFIG_CUSTOM_KERNEL_IMGSENSOR="s5kgw3sp13pd2214_mipi_raw s5kgd2sp03pd2214_mipi_raw gc02m1pd2214_mipi_mono gc02m1bpd2214_mipi_raw"
+CONFIG_MTK_CAM_PD2214F_EX=y
+CONFIG_REGULATOR_PM8008=m
+CONFIG_I2C_CHARDEV=m
+CONFIG_MTK_LENS=m
+CONFIG_MTK_FLASHLIGHT_PT=n
+CONFIG_MTK_VIDEO_LM3644=m
+########add camera end###########
+#add vivo battery&charge
+CONFIG_VCHG_VFCS_NEW_ARCH=y
+#CONFIG_BAT_CHG_VIVO_DOCU=y
+CONFIG_VIVO_CHARGING_NEW_ARCH=m
+CONFIG_VIVO_CHARGING_PD2214=y
+CONFIG_TCPC_RT1711H=m
+#add vivo battery&charge end
+#add vivo lcm start
+CONFIG_DRM_PANEL_SAMSUNG_S6E3FC3_MASK_PD2214=m
+CONFIG_VIVO_DISPLAY_PD2214=y
+#add vivo lcm end
+
+#add vivo audio
+CONFIG_SND_SOC_TFA9894=m
+CONFIG_VIVO_CODEC_COMMON=m
+CONFIG_MTK_TYPEC_ACCDET=m
+CONFIG_SND_SOC_MAX20328=m
+#add vivo audio end
+#add temporary thermal test
+CONFIG_THERMAL_PD2214F=y
+CONFIG_NFC_SN100=m
+CONFIG_SN100_SPI=m
+
+#add for fingerprint start
+CONFIG_BBK_FINGERPRINT=m
+CONFIG_BBK_FP_DISPATCH_EVENT=m
+CONFIG_BBK_FP_MODULE=m
+CONFIG_BBK_FP_ID=m
+CONFIG_BBK_GF9578=m
+##add for fingerprint end
+
+#vivo yangzhichao add for LCM start
+CONFIG_MTK_AAL_SUPPORT=y
+#vivo yangzhichao add for LCM end
+
+#vivo yuyifan add for modem config begin
+CONFIG_MTK_MD1_SUPPORT=11
+CONFIG_MTK_MD3_SUPPORT=0
+CONFIG_MTK_C2K_LTE_MODE=2
+CONFIG_MTK_ECCCI_C2K=y
+#vivo yuyifan add for modem config end
+
+#vivo zhangjing add for handshake report begin
+CONFIG_Handshare_Counter=m
+#vivo zhangjing add for handshake report end

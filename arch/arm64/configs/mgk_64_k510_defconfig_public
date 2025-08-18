@@ -1,0 +1,25 @@
+CONFIG_SECURITY_SELINUX_DEVELOP=y
+
+# add by sensor team for scp log begin
+CONFIG_MTK_TINYSYS_SCP_DEBUG_SUPPORT=y
+CONFIG_MTK_TINYSYS_SCP_LOGGER_SUPPORT=y
+CONFIG_SCP_RECOVERY_SUPPORT=y
+# add by sensor team for scp log end
+
+#vivo qiuchunliang add for suspend begin
+#CONFIG_SUSPEND_ADD_UTC_DEBUG is not set
+#vivo qiuchunliang add for suspend begin
+
+###########add vivo duanyitao audio start ############
+CONFIG_SND_SOC_TFA9874=n
+CONFIG_SND_SMARTPA_AW881XX=m
+CONFIG_SND_SOC_AW87XXX=m
+CONFIG_VIVO_SOC_CODEC=m
+CONFIG_VIVO_CODEC_COMMON=m
+CONFIG_SND_SOC_MT6369=m
+CONFIG_SND_SOC_VIVO_KTV=m
+CONFIG_SND_SOC_SIAXXXX=m
+###########add vivo duanyitao audio end ############
+
+CONFIG_SUSPEND_ADD_UTC_DEBUG=y
+#vivo qiuchunliang add for suspend begin

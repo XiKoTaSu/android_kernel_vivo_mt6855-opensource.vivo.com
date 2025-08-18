@@ -1,0 +1,75 @@
+CONFIG_MOBILEEVENT=m
+#add vivo battery&charge
+CONFIG_VCHG_VFCS_NEW_ARCH=y
+#CONFIG_BAT_CHG_VIVO_DOCU=y
+CONFIG_VIVO_CHARGING_NEW_ARCH=m
+CONFIG_VIVO_DUAL_CELL_CHARGE=y
+CONFIG_VIVO_CHARGER_MP2762=y
+#add vivo battery&charge end
+CONFIG_VIVO_TS=m
+
+###########camera start############
+CONFIG_CUSTOM_KERNEL_IMGSENSOR="s5kjn1sq03pd2219_mipi_raw s5k4h7pd2219_mipi_raw ov02b10pd2219_mipi_raw ov02b10v1pd2219_mipi_raw"
+CONFIG_MTK_CAM_PD2219=y
+CONFIG_MTK_LENS=m
+CONFIG_I2C_CHARDEV=y
+CONFIG_MTK_FLASHLIGHT_PT=n
+CONFIG_MTK_VIDEO_LM3644=m
+CONFIG_MTK_VIDEO_AW3644=m
+CONFIG_MTK_VIDEO_OCP81373=m
+CONFIG_MTK_VIDEO_AW36515=m
+CONFIG_MTK_VIDEO_LM3643=n
+########### camera end ############
+
+###########add vivo duanyitao audio start ############
+CONFIG_SND_SOC_TFA9874=n
+CONFIG_SND_SMARTPA_AW881XX=m
+CONFIG_VIVO_CODEC_COMMON=m
+CONFIG_SND_SOC_MT6369=m
+CONFIG_SND_SOC_VIVO_KTV=m
+###########add vivo duanyitao audio end ############
+#add for fingerprint start
+CONFIG_BBK_FINGERPRINT=m
+CONFIG_BBK_FP_MODULE=m
+CONFIG_BBK_FP_ID=m
+CONFIG_BBK_GF3956=m
+CONFIG_BBK_ICNF7312=m
+CONFIG_BBK_FPC1552=m
+##add for fingerprint end
+
+
+#add by sensor team begin
+CONFIG_BBK_SARPOWER=m
+CONFIG_SENSORHUB_MONITOR=m
+##add by sensor team end
+
+
+# lcm add for lcm begin #
+CONFIG_MTK_HDR_VIDEO_SUPPORT=y
+CONFIG_MTK_AAL_SUPPORT=y
+CONFIG_DRM_PANEL_HX_NT36672C_VDO_PD2219=m
+CONFIG_VIVO_LCM_SWITCH_PORCH=y
+CONFIG_VIVO_LCM_SET_BL_USE_GCE3=y
+CONFIG_VIVO_LCM_DCDC_SUPPORT=m
+CONFIG_VIVO_BACKLIGHT_SUPPORT_LM3697=m
+# lcm add for lcm end #
+
+#vivo zhangjing add for modem config begin
+CONFIG_MTK_MD1_SUPPORT=25
+CONFIG_MTK_MD3_SUPPORT=0
+CONFIG_MTK_C2K_LTE_MODE=2
+CONFIG_MTK_ECCCI_C2K=y
+#vivo zhangjing add for modem config end
+
+#vivo zhangjing add for handshake report begin
+CONFIG_Handshare_Counter=m
+#vivo zhangjing add for handshake report end
+
+#add for PD2219 BoardTemp
+CONFIG_PD2219_BOARD_TEMP=y
+#add for PD2219 BoardTemp end
+
+# vivo fankai add for dmabuf debug begin
+CONFIG_RMS_ION_STAT=y
+# vivo fankai add for dmabuf debug end
+
