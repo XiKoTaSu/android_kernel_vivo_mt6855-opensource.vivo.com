@@ -1,0 +1,20 @@
+menuconfig BBK_FINGERPRINT
+	tristate "BBK FINGERPRINT support"
+	help
+	  Say Y here to enable fingerprint
+
+if BBK_FINGERPRINT
+config BBK_FP_MODULE
+	bool "BBK fingerprint modules"
+	help
+		Say Y here to enable fingerprint modules
+config BBK_FP_ID
+	tristate "detect fingerprint id"
+	help
+	  there is nothing for help!
+
+source "drivers/fingerprint/fpc1552/Kconfig"
+source "drivers/fingerprint/gf3956/Kconfig"
+source "drivers/fingerprint/icnf7312/Kconfig"
+source "drivers/fingerprint/gf9578/Kconfig"
+endif

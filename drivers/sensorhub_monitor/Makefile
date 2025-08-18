@@ -1,0 +1,1 @@
+obj-$(CONFIG_SENSORHUB_MONITOR)	+= sensorhub_monitor.o

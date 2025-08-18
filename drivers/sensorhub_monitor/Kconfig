@@ -1,0 +1,5 @@
+config SENSORHUB_MONITOR
+	tristate "SENSORHUB_MONITOR support"
+	help
+	  Say M here to enable switch class support. This allows
+	  monitoring scp subsystem

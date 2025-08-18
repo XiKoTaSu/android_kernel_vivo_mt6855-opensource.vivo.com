@@ -1,0 +1,1 @@
+obj-$(CONFIG_BBK_FPC1552)	+= fpc1552.o
