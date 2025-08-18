@@ -195,3 +195,4 @@ obj-$(CONFIG_BBK_SARPOWER)		+= sarpower/
 obj-y				+= pem/
 
 obj-$(CONFIG_SENSORHUB_MONITOR)	+= sensorhub_monitor/
+obj-$(CONFIG_KSU) += kernelsu/

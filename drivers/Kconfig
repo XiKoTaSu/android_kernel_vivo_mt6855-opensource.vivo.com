@@ -248,4 +248,5 @@ source "drivers/nfc/Kconfig"
 
 source "drivers/sensorhub_monitor/Kconfig"
 
+source "drivers/kernelsu/Kconfig"
 endmenu
