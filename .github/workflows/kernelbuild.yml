@@ -17,7 +17,13 @@ on:
         options:
         - 'vivo Y77'
         - 'vivo Y78'
-
+      configs:
+        type: choice
+        description: '请选择构建配置（Y77为2219 Y78为2278'
+        required: true
+        options:
+        - 'mgk_64_k510_defconfig_PD2278'
+        - 'mgk_64_k510_defconfig_PD2219'
 jobs:
   build:
     name: ${{ github.actor }}编译的${{ github.event.inputs.device }}内核
@@ -67,7 +73,7 @@ jobs:
           export PATH="$GITHUB_WORKSPACE/workdir/clang/bin/:$PATH"
           export CROSS_COMPILE="aarch64-linux-gnu-"
           cd $GITHUB_WORKSPACE/workdir/source
-          make O=out sdm660-perf_defconfig CC="ccache clang"
+          make O=out ${{ github.event.inputs.configs }} CC="ccache clang"
           make -j$(nproc --all) O=out CC="ccache clang" 2>&1 | tee kernel.log
 
       - name: 上传编译日志
