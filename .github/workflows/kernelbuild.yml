@@ -12,7 +12,7 @@ on:
         - 'vivo Y78'
       configs:
         type: choice
-        description: '请选择构建配置（Y77为2219 Y78为2278'
+        description: '请选择构建配置（Y77为2219 Y78为2278）'
         required: true
         options:
         - 'mgk_64_k510_defconfig_PD2278'
