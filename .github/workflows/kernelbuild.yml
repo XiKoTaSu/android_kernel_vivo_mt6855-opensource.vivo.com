@@ -1,12 +1,5 @@
 name: Kernel build
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
-  push:
-    branches:
-      - sukiSU-Ultra
-    tags:
-      - sukiSU-Ultra
   workflow_call:
   workflow_dispatch:
     inputs:
