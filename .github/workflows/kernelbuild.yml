@@ -4,9 +4,9 @@ on:
     types: [opened, synchronize, reopened]
   push:
     branches:
-      - *
+      - sukiSU-Ultra
     tags:
-      - *
+      - sukiSU-Ultra
   workflow_call:
   workflow_dispatch:
     inputs:
