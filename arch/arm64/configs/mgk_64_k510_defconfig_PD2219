@@ -73,3 +73,4 @@ CONFIG_PD2219_BOARD_TEMP=y
 CONFIG_RMS_ION_STAT=y
 # vivo fankai add for dmabuf debug end
 
+CONFIG_KPM=y
