@@ -75,3 +75,4 @@ CONFIG_RMS_ION_STAT=y
 #add for PD2278 BoardTemp
 CONFIG_PD2278_BOARD_TEMP=y
 #add for PD2278 BoardTemp end
+CONFIG_KPM=y
