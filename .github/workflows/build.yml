@@ -67,6 +67,7 @@ jobs:
           export PATH="$GITHUB_WORKSPACE/workdir/clang/bin/:$PATH"
           export CROSS_COMPILE="aarch64-linux-gnu-"
           cd $GITHUB_WORKSPACE/workdir/source
+          make O=out ${{ github.event.inputs.target }}
           make O=out ${{ github.event.inputs.target }} CC="ccache clang"
           make -j$(nproc --all) O=out CC="ccache clang" 2>&1 | tee kernel.log
 
