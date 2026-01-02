@@ -9,14 +9,12 @@ on:
         required: true
         options:
         - 'Y77'
-        - 'Y78'
       target:
         type: choice
         description: '請選擇裝置內核CONFIG'
         required: true
         options:
         - 'mgk_64_k510_defconfig_PD2219'
-        - 'mgk_64_k510_defconfig_PD2278'
 
 jobs:
   build:
@@ -68,7 +66,7 @@ jobs:
           export CROSS_COMPILE="aarch64-linux-gnu-"
           cd $GITHUB_WORKSPACE/workdir/source
           make O=out ${{ github.event.inputs.target }}
-          make O=out ${{ github.event.inputs.target }} CC="ccache clang"
+          make O=out mgk_64_k510_defconfig_PD2219 CC="ccache clang"
           make -j$(nproc --all) O=out CC="ccache clang" 2>&1 | tee kernel.log
 
       - name: 上傳編譯日志
