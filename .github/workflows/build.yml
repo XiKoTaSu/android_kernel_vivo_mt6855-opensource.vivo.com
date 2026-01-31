@@ -63,7 +63,7 @@ jobs:
           cd $GITHUB_WORKSPACE/workdir/source
           make O=out mgk_64_k510_defconfig CC="ccache clang"
           cat arch/arm64/configs/${{ github.event.inputs.target }} >> out/.config
-          make O=out ${{ github.event.inputs.target }} CC="ccache clang"
+          make O=out CC="ccache clang" oldconfig
           make -j$(nproc --all) O=out CC="ccache clang" 2>&1 | tee kernel.log
 
       - name: 上傳編譯日志
