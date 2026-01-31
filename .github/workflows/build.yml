@@ -61,9 +61,8 @@ jobs:
           export PATH="$GITHUB_WORKSPACE/workdir/clang/bin/:$PATH"
           export CROSS_COMPILE="aarch64-linux-gnu-"
           cd $GITHUB_WORKSPACE/workdir/source
-          make defconfig
-          make O=out mgk_64_k510_defconfig_PD2219 CC="ccache clang"
-          make oldconfig
+          cat arch/arm64/configs/mgk_64_k510_defconfig >> ${{ github.event.inputs.choice }}
+          make O=out ${{ github.event.inputs.choice }} CC="ccache clang"
           make -j$(nproc --all) O=out CC="ccache clang" 2>&1 | tee kernel.log
 
       - name: 上傳編譯日志
